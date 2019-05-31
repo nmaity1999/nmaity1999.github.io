@@ -3,16 +3,16 @@ body {
 }
 
 h1.Education {
-	font-family: 36px Verdana, Helvetica;
+	font: 36px Verdana, Helvetica;
 	font-weight: bold;
 }
 
 h2 {
-	font-family: 36px Verdana, Helvetica;
+	font: 36px Verdana, Helvetica;
 	font-weight: bold;
 }
 
 h3 {
-	font-family: 36px Verdana, Helvetica;
+	font: 36px Verdana, Helvetica;
 	font-weight: bold;
 }
