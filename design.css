@@ -9,6 +9,11 @@ h1 {
 
 }
 
+h2 {
+  color: navy;
+  font: 20px arial, georgia;
+}
+
 p {
   font: 15px arial;
   color: red;
