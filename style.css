@@ -6,6 +6,8 @@ body {
 	font: 36px Verdana, Helvetica;
 	font-weight: bold;
 	color: navy;
+	margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .list {
