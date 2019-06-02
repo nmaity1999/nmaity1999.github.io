@@ -2,17 +2,9 @@ body {
 	background-color: white;
 }
 
-h1.Education {
+.header {
 	font: 36px Verdana, Helvetica;
 	font-weight: bold;
 }
 
-h2 {
-	font: 36px Verdana, Helvetica;
-	font-weight: bold;
-}
 
-h3 {
-	font: 36px Verdana, Helvetica;
-	font-weight: bold;
-}
