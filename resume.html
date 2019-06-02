@@ -7,7 +7,14 @@
 </head>
 <body>
 <h1 class = "Education" >Education</h1>
-<p> Acton-Boxborough Regional High School <br> Tufts University - Computer Science and Quantitative Econ Major<br> </p>
+<p id="education" onclick="myFunction()"> "Acton-Boxborough Regional High School <br> Tufts University - Computer Science and Quantitative Econ Major<br> </p>
+
+<script type="text/javascript"> 
+function myFunction() {
+  document.getElementById("education").innerHTML = "Graduated Honor Roll from Acton-Boxborough and Deans List at Tufts.";
+}
+
+</script>
 
 <h2 class = "Coursework" >Coursework</h2>
 <p>  Calculus II <br> Intermediate Microeconomics <br> Data Structures <br> Linear Algebra </p>
