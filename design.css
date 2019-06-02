@@ -4,18 +4,35 @@ body {
 
 
 h1 {
+  font: Bookman ;
   color: red;
-  margin-left: 20px;
+  text-align: center;
 
 }
 
 h2 {
   color: navy;
-  font: 20px arial, georgia;
+  font: 20px verdana, georgia;
 }
 
 p {
-  font: 15px arial;
-  color: red;
+  font: 15px verdana;
+  color: navy
 
+}
+
+a {
+	font: 15px verdana;
+}
+
+a:hover {
+	color: red
+}
+
+a:link {
+   color: navy;
+}
+
+a:visited {
+	color: red
 }
