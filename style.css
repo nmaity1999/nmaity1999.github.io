@@ -5,6 +5,19 @@ body {
 .header {
 	font: 36px Verdana, Helvetica;
 	font-weight: bold;
+	color: navy;
+}
+
+.list {
+	list-style: cjk-earthly-branch;
+}
+
+.info {
+	font: 14px Helvetica;
+}
+
+li {
+	font: 14px Helvetica;
 }
 
 
