@@ -1,16 +1,64 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Nilay Maity WebPage </title>
-        <meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="design.css" />
-	
+	<title>Pod Home Page</title>
+	 <meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-<h1>Nilay Maity Webpage </h1>
-<h2>Nilay Maity</h2>
-<img src="IMG_3546.jpeg" alt="Nilay Maity Picture" style="width:200px;height:200px;transform:rotate(90deg);">
-<p>  <br> <a href="http://nmaity1999.github.io/resume.html">Resume</a>  <br> <a href="http://nmaity1999.github.io/bio.html">Bio</a> </p>
+<div id = "header" >
+<h1 id="Title">Pod</h1>
+</div>
+<div>
+</div>
+
+<div id = "bioDiv">
+	<p id="bio ">Pod a new way to interact with your friends. Share messages, photos, videos, playlist, sports...</p>
+	<style type="text/css">
+		#bio {
+			font: 24px helvetica;
+		}
+	</style>
+</div>
+<form id = "lpage" onsubmit="search()"> Pod Name: <input id = "uName" type="text" name="Username:" value=""> <br>
+Password: <input id = "pw" type="password" name="Password:" value=""><br>
+<input type="submit" value="Submit">
+<h2 id="login"></h2>
+</form>
+<script type="text/javascript">
+
+
+
+	function Pod(username,password,purl) {
+		this.username = username;
+		this.password = password;
+		this.purl = purl;
+	}
+
+	Pods = [];
+	STD = new Pod("NilayPod", "douglas", "bio.html");
+	Pods.push(STD);
+	function search() {
+		var bool = true;
+		for (var i = 0; i < Pods.length; i++) {
+			if (document.getElementById("uName").value == Pods[i].username && document.getElementById("pw").value == Pods[i].password ) {
+				alert("correct");
+				bool = false;
+				document.getElementById("lpage").action = Pods[i].purl;
+				return;
+			}
+		}
+		if (bool)  {
+			alert("incorrect password");
+		}
+	}
+
+	
+</script>
+
+
+
+
+
 </body>
 </html>
-
