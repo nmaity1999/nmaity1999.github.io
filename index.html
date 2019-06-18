@@ -29,15 +29,18 @@ Password: <input id = "pw" type="password" name="Password:" value=""><br>
 
 
 
-	function Pod(username,password,purl) {
+	function Pod(username,password) {
 		this.username = username;
 		this.password = password;
-		this.purl = purl;
 	}
 
 	Pods = [];
-	STD = new Pod("NilayPod", "douglas", "bio.html");
+	STD = new Pod("NilayPod", "douglas");
+	Ze = new Pod("Ze'ev", "Drukker");
+	G = new Pod("G", "Cass");
 	Pods.push(STD);
+	Pods.push(Ze);
+	Pods.push(G);
 	function search() {
 		var bool = true;
 		for (var i = 0; i < Pods.length; i++) {
