@@ -35,12 +35,12 @@ Password: <input id = "pw" type="password" name="Password:" value=""><br>
 	}
 
 	Pods = [];
-	STD = new Pod("eboard", "elogin");
-	var Ze = new Pod("students", "slogin");
-	G = new Pod("teachers", "tlogin");
-	Pods.push(STD);
-	Pods.push(Ze);
-	Pods.push(G);
+	Eboard = new Pod("eboard", "elogin");
+	var Students = new Pod("students", "slogin");
+	Teachers = new Pod("teachers", "tlogin");
+	Pods.push(Eboard);
+	Pods.push(Students);
+	Pods.push(Teachers);
 	function search() {
 		var bool = true;
 		for (var i = 0; i < Pods.length; i++) {
