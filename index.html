@@ -35,9 +35,9 @@ Password: <input id = "pw" type="password" name="Password:" value=""><br>
 	}
 
 	Pods = [];
-	STD = new Pod("NilayPod", "douglas");
-	var Ze = new Pod("Zeev", "Drukker");
-	G = new Pod("G", "Cass");
+	STD = new Pod("eboard", "elogin");
+	var Ze = new Pod("students", "slogin");
+	G = new Pod("teachers", "tlogin");
 	Pods.push(STD);
 	Pods.push(Ze);
 	Pods.push(G);
@@ -47,7 +47,7 @@ Password: <input id = "pw" type="password" name="Password:" value=""><br>
 			if (document.getElementById("uName").value == Pods[i].username && document.getElementById("pw").value == Pods[i].password ) {
 				alert("correct");
 				bool = false;
-				document.getElementById("lpage").action = "scfhlsdvkulpsdv;blseighse[ifvcgsd.html";
+				document.getElementById("lpage").action = "resume.html";
 				return;
 			}
 		}
